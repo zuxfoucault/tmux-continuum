@@ -39,7 +39,7 @@ resize_window_to_full_screen() {
 
 resize_to_true_full_screen() {
   osascript <<-EOF
-	tell application ""
+	tell application "ghostty"
 		activate
 		delay 0.5
 		tell application "System Events" to tell process "ghostty"
