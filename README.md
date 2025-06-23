@@ -1,3 +1,5 @@
+fork from <https://github.com/tmux-plugins/tmux-continuum>
+
 # tmux-continuum
 
 Features:
@@ -61,7 +63,7 @@ Please make sure you have
 
 Clone the repo:
 
-    $ git clone https://github.com/tmux-plugins/tmux-continuum ~/clone/path
+    git clone https://github.com/tmux-plugins/tmux-continuum ~/clone/path
 
 Add this line to the bottom of `.tmux.conf`:
 
@@ -92,7 +94,7 @@ required.
 
 ### Known Issues
 
-- In order to be executed periodically, the plugin updates the `status-right` tmux variable. In case some plugin (usually themes) overwrites the `status-right` variable, the autosave feature stops working. To fix this issue, place the plugin last in the TPM plugins list. 
+- In order to be executed periodically, the plugin updates the `status-right` tmux variable. In case some plugin (usually themes) overwrites the `status-right` variable, the autosave feature stops working. To fix this issue, place the plugin last in the TPM plugins list.
 
 ### Reporting bugs and contributing
 
@@ -100,4 +102,5 @@ Both contributing and bug reports are welcome. Please check out
 [contributing guidelines](CONTRIBUTING.md).
 
 ### License
+
 [MIT](LICENSE.md)
